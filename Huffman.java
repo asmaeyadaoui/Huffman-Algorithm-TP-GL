@@ -4,8 +4,9 @@ class HuffmanNode {
  
     int data;
     char c;
-    HuffmanNode left;
     HuffmanNode right;
+    HuffmanNode left;
+    
 }
 class MyComparator implements Comparator<HuffmanNode> {
 	public int compare(HuffmanNode x, HuffmanNode y)
